@@ -133,7 +133,7 @@ A developer is considered "on track" if they:
 
 ---
 
-## Optional (Bonus)
+## Feedback
 
 - Create a slide or Markdown cell summarizing Week 1 learning and challenges
 - Propose one potential project idea or area of interest based on initial data exploration
