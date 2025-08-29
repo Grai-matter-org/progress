@@ -52,4 +52,11 @@ Track progress of analysis on Dandelion data
 + No. of imaging done
 + Was transfer needed for imaging (Boolean, 0 or 1 )
 + Total no. of procedures
++ Add procedure list
+
+# Next steps
+1. check variable definitions
+2. Add the above variables
+   
+
   
