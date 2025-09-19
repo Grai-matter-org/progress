@@ -64,5 +64,6 @@ Track progress of analysis on Dandelion data
 3. Make a new tabulat data-table with "journey variables"
    - Find the top 5 most frequent units the patients visit
    - Have new variables as `unit_time` for 5 days post admittance
+   - Try making predictors for teh journey variables
 
   
