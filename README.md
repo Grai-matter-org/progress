@@ -57,6 +57,12 @@ Track progress of analysis on Dandelion data
 # Next steps
 1. check variable definitions
 2. Add the above variables
-   
+
+# Next steps
+1. Fix table (make code arrays as tuples with time stamp
+2. Add predictions for other variables aleady in the tabular dataset
+3. Make a new tabulat data-table with "journey variables"
+   - Find the top 5 most frequent units the patients visit
+   - Have new variables as `unit_time` for 5 days post admittance
 
   
