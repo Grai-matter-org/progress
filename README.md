@@ -62,6 +62,44 @@ Track progress of analysis on Dandelion data
 1. Fix table (make code arrays as tuples with time stamp
 2. Add predictions for other variables aleady in the tabular dataset
 3. Make a new tabulat data-table with "journey variables"
+
+---
+
+# Next step
+
+# task 1
+---
+## ADT journey: 
+
+```
+patient: (dept/event,time_in), (dept/event, time_in),...
+```
+
+Event example:
+
++ admission
++ discharge
+
+Example departments:
++ Emergency
++ preop
++ postop
++ ICU
+
+
+# task 2
+---
+## Table update
++ make each row unique for distinct episodes
++ thus, table index will have non-unique entries for patient id
+
+# task 3
+---
+## Model  quantized medsurg_stay_days_avg prediction
+
++ low: <= 2
++ high: rest
+
    - Find the top 5 most frequent units the patients visit
    - Have new variables as `unit_time` for 5 days post admittance
    - Try making predictors for teh journey variables
