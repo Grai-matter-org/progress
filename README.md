@@ -100,8 +100,5 @@ Example departments:
 + low: <= 2
 + high: rest
 
-   - Find the top 5 most frequent units the patients visit
-   - Have new variables as `unit_time` for 5 days post admittance
-   - Try making predictors for teh journey variables
 
   
