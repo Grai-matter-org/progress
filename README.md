@@ -1,3 +1,15 @@
+# updated New target
+
+1. Prediction model (regressor or classifer) for the number of encounters and number of encounter days
+       + you cannot use features that are not known at encounter begin time
+       +  figure out for each enounter the sum of total number fo prodecures and ic codes in all past encounters for teh same patienst, and use them as features
+       +  similarly figure out the sum of all encounter days and number fo past encounters for the same patient and use them as features
+Note: the key point is NOT to use data that is not available at the beginnning of teh current encounter
+2. Find clusters in the expanded tabular data set created in 1. (the new dataset you have, expanded by including teh past aggregate data from previous encounters)
+
+3. Make a time series of total number of encounters  in different units over time. Note, to do this, you need to find where each encounter strats and ends and add up the total number fo encounters at each day.
+
+
 # progress
 Track progress of analysis on Dandelion data
 
