@@ -1,4 +1,20 @@
-# updated New target
+# updated New target (Nov 14)
+
+## Results so far
+1. Plot ROC for n_encounter with long_stay defined to be 1,2,3,4,5 days as long stay cut points (5 curves)
+2. Plot the AUV vs the 1,2,3,4,5 long-stay cut points
+3. R2 for stay_durationin hospital, and indifferent units (bar plot: units vs R2)
+
+## Procedure prediction
+
+1. List the top (most frequent , say top 10) procedures
+2. List the top most time consuming procedures
+3. For each compute the distribution over patient (encounter specific) IC codes (using first 3 letters), demographics, age, sex 
+
+
+
+
+# past target
 
 1. Prediction model (regressor or classifer) for the number of encounters and number of encounter days
        + you cannot use features that are not known at encounter begin time
