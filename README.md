@@ -10,6 +10,12 @@
 1. List the top (most frequent , say top 10) procedures
 2. List the top most time consuming procedures
 3. For each compute the distribution over patient (encounter specific) ICD codes (using first 3 letters), demographics, age, sex
+
+## Reading assignment
+
+https://github.com/zeroknowledgediscovery/quasinet
+
+https://github.com/zeroknowledgediscovery/ZeDpolicies/blob/main/level_1_screening.md
    
 ---
 
