@@ -2,15 +2,16 @@
 
 ## Results so far
 1. Plot ROC for n_encounter with long_stay defined to be 1,2,3,4,5 days as long stay cut points (5 curves)
-2. Plot the AUV vs the 1,2,3,4,5 long-stay cut points
-3. R2 for stay_durationin hospital, and indifferent units (bar plot: units vs R2)
+2. Plot the AUC vs the 1,2,3,4,5 long-stay cut points
+3. R2 for stay_duration in hospital, and indifferent units (bar plot: units vs R2)
 
 ## Procedure prediction
 
 1. List the top (most frequent , say top 10) procedures
 2. List the top most time consuming procedures
-3. For each compute the distribution over patient (encounter specific) IC codes (using first 3 letters), demographics, age, sex 
-
+3. For each compute the distribution over patient (encounter specific) ICD codes (using first 3 letters), demographics, age, sex
+   
+---
 
 
 
