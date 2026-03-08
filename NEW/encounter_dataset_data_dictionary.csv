@@ -1,0 +1,26 @@
+column_name,definition
+patient_id,Unique identifier for the patient.
+encounter_id,Unique identifier for the healthcare encounter or visit.
+icd_prefix3_unique_str,Comma-separated string of unique 3-character ICD diagnosis code prefixes associated with the encounter.
+n_icd_prefix3,Count of unique 3-character ICD diagnosis code prefixes recorded during the encounter.
+encounter_start_dt,Datetime when the encounter began (first recorded activity or admission).
+encounter_end_dt,Datetime when the encounter ended (final discharge or completion of visit).
+encounter_duration_days,Total length of the encounter in days calculated from encounter start to encounter end.
+encounter_setting,"Clinical setting where care occurred (e.g., Inpatient hospitalization, Observation stay, Outpatient visit, or other in-person care setting)."
+encounter_medical_service,"Primary clinical specialty or hospital service responsible for the encounter (e.g., cardiology, emergency medicine, general surgery)."
+adt_event_types_seq_str,"Chronologically ordered sequence of ADT (Admission, Discharge, Transfer) event types occurring during the encounter, stored as a pipe-separated string."
+adt_event_times_seq_str,Chronologically ordered timestamps corresponding to the ADT events in adt_event_types_seq_str.
+PATIENT_BIRTH_YEAR,Year of birth for the patient.
+PATIENT_SEX,Recorded sex of the patient (Male or Female).
+PATIENT_RACE_ETHNICITY,Recorded patient race and ethnicity category.
+DECEASED_FLAG,"Binary indicator of whether the patient is recorded as deceased in the dataset (1 = deceased, 0 = not deceased)."
+age,Patient age in years at the start of the encounter.
+med_order_nunique,Number of unique medication orders placed during the encounter.
+proc_codes_seq_str,Chronologically ordered pipe-separated list of procedure codes recorded during the encounter.
+proc_descs_seq_str,Chronologically ordered pipe-separated list of procedure descriptions corresponding to proc_codes_seq_str.
+proc_times_seq_str,Chronologically ordered timestamps corresponding to each recorded procedure during the encounter.
+proc_count,Total number of procedures performed or recorded during the encounter.
+past_num_encounters,Number of encounters recorded for the patient prior to the current encounter.
+past_total_procedures,Total number of procedures recorded across all prior encounters for the patient.
+past_total_icd_codes,Total number of ICD diagnosis codes recorded across all prior encounters.
+past_total_encounter_days,Cumulative number of days spent across all prior encounters.
