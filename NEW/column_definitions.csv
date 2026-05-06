@@ -1,0 +1,27 @@
+column_name,definition
+patient_id,Unique identifier for the patient.
+encounter_id,Unique identifier for the healthcare encounter/visit.
+icd_prefix3_unique_str,String representation of the unique 3-character ICD code prefixes associated with the encounter.
+n_icd_prefix3,Number of unique 3-character ICD code prefixes recorded for the encounter.
+encounter_start_dt,Datetime when the encounter began.
+encounter_end_dt,Datetime when the encounter ended.
+encounter_duration_days,Duration of the encounter in days.
+encounter_setting,"Care setting for the encounter, such as inpatient, outpatient, emergency, or observation."
+encounter_medical_service,Clinical service line or specialty associated with the encounter.
+adt_event_types_seq_str,"Ordered string of ADT event types during the encounter (for example admission, transfer, discharge)."
+adt_event_times_seq_str,Ordered string of timestamps corresponding to the ADT events during the encounter.
+PATIENT_BIRTH_YEAR,Patient year of birth.
+PATIENT_SEX,Recorded sex of the patient.
+PATIENT_RACE_ETHNICITY,Recorded race and/or ethnicity category for the patient.
+DECEASED_FLAG,Indicator for whether the patient is recorded as deceased.
+age,Patient age at the time of the encounter.
+med_order_nunique,Number of unique medication orders placed during the encounter.
+proc_codes_seq_str,Ordered string of procedure codes recorded during the encounter.
+proc_descs_seq_str,Ordered string of procedure descriptions corresponding to the procedure codes.
+proc_times_seq_str,Ordered string of timestamps for procedures during the encounter.
+proc_count,Total number of procedures recorded during the encounter.
+past_num_encounters,Number of prior encounters for the patient before this encounter.
+past_total_procedures,Total number of procedures across all prior encounters.
+past_total_icd_codes,Total number of ICD codes across all prior encounters.
+past_total_encounter_days,Total days spent across all prior encounters.
+encounter_cluster,"Cluster or grouped category assigned to the encounter, likely derived from utilization, diagnosis, or procedure patterns."

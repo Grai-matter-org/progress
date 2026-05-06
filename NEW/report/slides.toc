@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Length-of-stay and patient load}{2}{0}{1}
+\beamer@sectionintoc {2}{Procedure prediction and workload}{9}{0}{2}
